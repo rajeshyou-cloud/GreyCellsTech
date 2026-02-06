@@ -72,7 +72,7 @@ mkdir -p src/pages
 
 ### Step 4: Add Your Apps Script URL
 
-Create `src/components/ContactForm.jsx` and **replace `YOUR_APPS_SCRIPT_WEB_APP_URL_HERE`** with the URL you copied in Phase 1.
+Create `src/components/ContactForm.jsx` and **replace `https://script.google.com/macros/s/AKfycbxSntn34ihwM_64BusZGi_QWcHPapx5qvqo_CS5c09ro6LKaFwz417g46lq6aDZRjtubQ/exec`** with the URL you copied in Phase 1.
 
 ### Step 5: Create Minimal Starter Files
 
