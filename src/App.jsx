@@ -21,27 +21,13 @@ function App() {
   return (
     <HelmetProvider>
       <BrowserRouter basename="/greycells">
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/landing" element={<Landing />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/industries" element={<Industries />} />
-          <Route path="/case-studies" element={<CaseStudies />} />
-          <Route path="/process" element={<Process />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/resources" element={<Resources />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </HelmetProvider>
   );
 }
+
 
 export default App;

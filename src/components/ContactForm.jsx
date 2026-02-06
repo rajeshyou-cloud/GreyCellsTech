@@ -17,7 +17,9 @@ export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
 
-  const APPS_SCRIPT_URL = `https://script.google.com/macros/s/AKfycbxSntn34ihwM_64BusZGi_QWcHPapx5qvqo_CS5c09ro6LKaFwz417g46lq6aDZRjtubQ/exec`
+  // TODO: Replace with your actual Apps Script URL if different
+  const APPS_SCRIPT_URL = `https://script.google.com/macros/s/AKfycbxSntn34ihwM_64BusZGi_QWcHPapx5qvqo_CS5c09ro6LKaFwz417g46lq6aDZRjtubQ/exec`;
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -51,7 +53,6 @@ export default function ContactForm() {
           message: '',
           website_hp: ''
         });
-        
         // Reset success message after 5 seconds
         setTimeout(() => {
           setSubmitted(false);
@@ -64,6 +65,7 @@ export default function ContactForm() {
       setError('Network error. Please check your connection and try again.');
     } finally {
       setLoading(false);
+
     }
   };
 
