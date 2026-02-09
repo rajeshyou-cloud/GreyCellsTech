@@ -53,21 +53,16 @@ greycells/
 ├── public/
 │   ├── robots.txt
 │   ├── sitemap.xml
-│   └── favicon.ico
+│   ├── favicon.ico
+│   └── logo*.svg
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── Footer.jsx
 │   │   ├── ContactForm.jsx
-│   │   ├── SEO.jsx
-│   │   ├── Hero.jsx
-│   │   ├── ServiceCard.jsx
-│   │   └── TestimonialCard.jsx
+│   │   └── Logo.jsx
 │   ├── data/
-│   │   ├── content.js           # All copy + constants
-│   │   ├── services.js
-│   │   ├── caseStudies.js
-│   │   └── blog.js
+│   │   └── content.js           # All copy + constants
 │   ├── pages/
 │   │   ├── Home.jsx
 │   │   ├── Landing.jsx
@@ -91,7 +86,7 @@ greycells/
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── package.json
-├── .gitignore
+├── package-lock.json
 └── DEPLOYMENT_GUIDE.md (this file)
 ```
 
@@ -127,9 +122,9 @@ See individual code blocks in PROJECT_FILES.md for complete file contents.
 
 Key components:
 - ContactForm.jsx: Handles Google Sheets submission
-- SEO.jsx: React Helmet for meta tags
-- Navbar.jsx: Sticky navigation with CTAs
+- Navbar.jsx: Primary navigation
 - Footer.jsx: Company info + CTAs
+- Logo.jsx: Brand logo rendering
 
 ---
 
@@ -187,11 +182,6 @@ Edit `src/data/content.js` for:
 - Testimonials
 - CTAs
 
-### Add Blog Post
-1. Edit `src/data/blog.js`
-2. Add new object to array
-3. Commit + push
-
 ### View Leads
 Open your Google Sheet to see all form submissions in real-time.
 
@@ -228,4 +218,4 @@ Book a Call: https://calendar.app.google/31YgUYzPYVRUB5yR6
 
 ---
 
-Last Updated: February 6, 2026
+Last Updated: February 9, 2026
