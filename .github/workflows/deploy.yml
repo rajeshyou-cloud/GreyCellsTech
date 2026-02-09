@@ -21,12 +21,12 @@ jobs:
         run: npm i -g npm@10
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Ensure Linux native binaries
         run: |
-          npm install @esbuild/linux-x64 --no-save
-          npm install @rollup/rollup-linux-x64-gnu --no-save
+          npm rebuild esbuild
+          npm rebuild @rollup/rollup-linux-x64-gnu
 
       - name: Build
         run: node ./node_modules/vite/bin/vite.js build
