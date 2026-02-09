@@ -1,6 +1,6 @@
 # GreyCells Technologies - Deployment Guide
 
-Live Site: https://rajeshyou-cloud.github.io/greycells/
+Live Site: https://rajeshyou-cloud.github.io/GreyCellsTech/
 Repository: https://github.com/rajeshyou-cloud/greycells
 
 ---
@@ -60,8 +60,8 @@ npm run preview
 
 ## 5) Notes
 
-- Production base path is `/greycells/` (Vite config)
-- Router base uses `import.meta.env.BASE_URL` (dev `/`, prod `/greycells/`)
+- Production base path is `/GreyCellsTech/` (Vite config)
+- Router base uses `import.meta.env.BASE_URL` (dev `/`, prod `/GreyCellsTech/`)
 - Resources downloads live in `public/downloads/`
 - Home includes Hero + Landing section
 

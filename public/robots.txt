@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rajeshyou-cloud.github.io/greycells/sitemap.xml
+Sitemap: https://rajeshyou-cloud.github.io/GreyCellsTech/sitemap.xml

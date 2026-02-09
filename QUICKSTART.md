@@ -54,7 +54,7 @@ Then in GitHub:
 3. Select `gh-pages` and `/ (root)`.
 
 Your site will publish to:
-`https://rajeshyou-cloud.github.io/greycells/`
+`https://rajeshyou-cloud.github.io/GreyCellsTech/`
 
 ---
 
@@ -69,7 +69,7 @@ Your site will publish to:
 
 ## Notes
 
-- Vite base is `/greycells/` in production and `/` in dev via `import.meta.env.BASE_URL`.
+- Vite base is `/GreyCellsTech/` in production and `/` in dev via `import.meta.env.BASE_URL`.
 - Home includes the landing section and a hero banner.
 - Resources downloads are served from `public/downloads/`.
 - No `.env` file is required.
